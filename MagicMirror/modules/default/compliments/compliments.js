@@ -12,22 +12,22 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"PiSoc says Hi!!!"
+				"PiSoc says hi!"
 			],
 			morning: [
-				"PiSoc - Good Morning all"
+				"Good morning!"
 				
 							],
 			afternoon: [
-				"PiSoc - Mondays 18:30"
+				"Good afternoon!"
 			],
 			evening: [
-				"PiSoc - Schools out"			]
+				"Good evening!"			]
 		},
 		updateInterval: 30000,
 		remoteFile: null,
 		fadeSpeed: 4000,
-		morningStartTime: 3,
+		morningStartTime: 4,
 		morningEndTime: 12,
 		afternoonStartTime: 12,
 		afternoonEndTime: 17,
